@@ -1,0 +1,21 @@
+'''
+Operator          Description
+
+()                Parentheses
+**                Exponentation
++x -x ~x          Unary plus, unary minus, and bitwise NOT
+* / // %          Multiplication, division, floor division, and modulus
++ -               Addition and substraction
+<< >>             Bitwise left and right shifts
+&                 Bitwise AND
+^                 Bitwise XOR
+|                 Bitwise OR
+
+== != > >= <      Comparisons, identity, and membership operators
+<= is, is not,
+in, not in
+
+not               Logical NOT
+and               AND
+or                OR
+'''
