@@ -1,0 +1,20 @@
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+del p1
+
+print(p1)
+
+'''
+Traceback (most recent call last):
+  File "demo_class8.py", line 13, in <module>
+    print(p1)
+NameError: 'p1' is not defined
+'''
